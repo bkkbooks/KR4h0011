@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR4h0011/v1
+canonical_location: https://kanripo.org/bkk/KR4h0011/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 御覽詩
+  date: '2015-08-25 00:30:57.904854'
+  source:
+    repository: kanripo
+    path: KR4h0011
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4h0011_000.yaml, hash: 'sha256:31b89164b2741616f834e3078a03362b6bee14f43c838a32f172f9ae0ff2e649'}
+  - {seq: 1, filename: KR4h0011_001.yaml, hash: 'sha256:c5f1a69ea58d546c82495bc9574e56b91779a8733cd7ebc43c602cc1eae0471d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4h0011_000.markers.yaml, hash: 'sha256:956c7768570d0e53ad31a1b96e59116896738bea76648bbac295909892ab9c4d'}
+  - {seq: 1, role: markers, filename: assets/KR4h0011_001.markers.yaml, hash: 'sha256:34263f91ff35a7580eedf6d40be6ceb487c080cf62cc584114e9a136bcb6cc45'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4h0011_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 812
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4h0011_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 10575
+  label: 御覽詩
+  type: section
+  level: 1
+hash: sha256:c5d9f0c70e504f882b50867e34f047faa526812028c423bb65c7138bf3aec425
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
